@@ -1,0 +1,170 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit";
+  color: hsl(30, 10%, 34%);
+  letter-spacing: 0px;
+  line-height: 150%;
+}
+
+h1 {
+  font-family: "Young Serif";
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: hsl(24, 5%, 18%);
+  line-height: 100%;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: "Young Serif";
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  color: hsl(14, 45%, 36%);
+  line-height: 100%;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: hsl(332, 51%, 32%);
+}
+
+ul,
+ol {
+  color: hsl(14, 45%, 36%);
+  margin-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  margin: auto;
+  background-color: hsl(0, 0%, 100%);
+  width: 51.11%;
+  border-radius: 24px;
+  margin: 8rem auto;
+  padding: 2.5rem 0;
+}
+
+.container img {
+  display: block;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  width: 89.13%;
+  margin: auto;
+}
+
+.main {
+  margin: auto;
+  margin-top: 2.5rem;
+  width: 89.13%;
+}
+
+.header > p {
+  margin-bottom: 2rem;
+}
+
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+span.text {
+  color: hsl(30, 10%, 34%);
+  margin-left: 0.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.ingredients {
+  padding: 2rem 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.instructions {
+  padding: 2rem 0;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition {
+  padding-top: 2rem;
+}
+
+.nutrition-table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  gap: 0.5rem;
+}
+
+.nutrition-table > div:not(:last-child) {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition-details {
+  display: flex;
+  padding: 0 2rem;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.nutrition-details > div {
+  width: 50%;
+}
+
+.value {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80.2%;
+  }
+}
+
+@media (max-width: 430px) {
+  body {
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  .container {
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 2.5rem;
+    padding: 0;
+  }
+
+  .main {
+    padding: 0;
+    width: 82.9%;
+  }
+
+  .container img {
+    margin: auto;
+    width: 100%;
+    height: 175px;
+    border-radius: 0;
+  }
+}
